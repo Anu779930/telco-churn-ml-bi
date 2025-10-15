@@ -38,7 +38,7 @@ Power BI dashboard with churn KPIs, risk segmentation, and filters:
   - `telco_churn_dashboard.png` → PNG preview  
 
 - `notebooks/` → Jupyter Notebook for EDA + SQL queries  
-  - `telco-churn-eda.ipynb`  
+  - `telco-churn-eda.ipynb`
 
 - `outputs/` → Processed data, model results, and saved model  
   - `telco_churn_clean.csv`  
@@ -47,12 +47,28 @@ Power BI dashboard with churn KPIs, risk segmentation, and filters:
   - `at_risk_customers_testset_threshold_0_40.csv`  
   - `best_churn_model.joblib`  
 
-- `requirements.txt` → Python dependencies  
+- `requirements.txt` → Python dependencies
+- `Telco_Churn_Prediction_Retention_Documentation.docx` → Complete business, analytical & technical documentation  
 - `README.md` → Project documentation (this file)  
 - `LICENSE` → Open-source license  
-- `.gitignore` → Git ignore rules  
+- `.gitignore` → Git ignore rules
+  
+---
+
+## 📄 Documentation
+
+Full project documentation detailing the business, analytical, and technical aspects is available here:  
+[📘 Download Telco_Churn_Prediction_Retention_Documentation.docx](./Telco_Churn_Prediction_Retention_Documentation.docx)
+
+**Includes:**
+- Business problem, goals, and data overview  
+- Feature engineering, model selection, and performance comparison  
+- Retention strategy insights derived from churn predictors  
+- Power BI dashboard explanation and business interpretation  
+- ROI metrics, impact summary, and improvement roadmap  
 
 ---
+
 
 ## 🛠️ Tools & Technologies  
 - **Python**: pandas, seaborn, matplotlib, scikit-learn, xgboost  
